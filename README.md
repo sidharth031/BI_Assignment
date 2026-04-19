@@ -72,9 +72,9 @@ dim_Date
 
 ## 🧱 Data Model (Star Schema)
                dim_Date
-                   |
-silver_Item — silver_Sales — silver_Customer
-                  |
+                   |   <br>
+silver_Item — silver_Sales — silver_Customer <br>
+                  |   <br>
             silver_Geography
 
 ### ⭐ Fact Table
