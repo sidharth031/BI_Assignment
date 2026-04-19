@@ -71,11 +71,11 @@ dim_Date
 ---
 
 ## 🧱 Data Model (Star Schema)
-       dim_Date
-           |
+               dim_Date
+                   |
 silver_Item — silver_Sales — silver_Customer
-|
-silver_Geography
+                  |
+            silver_Geography
 
 ### ⭐ Fact Table
 - `silver_Sales`
@@ -89,7 +89,7 @@ silver_Geography
 ### 🔗 Relationships
 - Sales → Item (ItemKey)  
 - Sales → Customer (CustomerKey)  
-- Sales → Geography (GeographyKey)  
+- Sales → Geography (CityId)  
 - Sales → Date (OrderDate)  
 
 ---
